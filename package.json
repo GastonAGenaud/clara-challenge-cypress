@@ -1,0 +1,20 @@
+{
+  "name": "apexchart-cypress",
+  "version": "1.0.0",
+  "description": "automation project for cara",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Gaston Genaud",
+  "license": "MIT",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "cypress": "^13.3.0"
+  }
+}
